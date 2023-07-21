@@ -1,0 +1,19 @@
+body {
+    background-color: brown;
+    font-family: 'Segoe UI', Tahoma, G
+    eneva, Verdana, sans-serif;
+    /*
+    em html é id = em css é # (um elemento)
+    em html é class = em css È . (pode varios elementos)
+
+    
+    */
+}
+h1#principal {
+ color: burlywood;
+ text-align: center;
+
+}
+.basico {
+    color: aliceblue;
+}

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+main {
+    background-color: white;
+}
+body {
+    background-color: #4C5958;
+    text-align: justify;
+    
+}
+h1 {
+    color: #116e65;
+}
+h2 {
+    color: #4C5958;
+}
