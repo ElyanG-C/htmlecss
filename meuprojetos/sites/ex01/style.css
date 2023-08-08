@@ -5,6 +5,7 @@
     --cor2: #FF4C3E;
 }
 body {
+background-color: darkgray;
 
 }
 
@@ -16,10 +17,16 @@ background-color: black;
 }
 
 img {
-    min-width: 100px;
+    min-width: 300px;
     max-width: 900px;
-    min-height: 300px;
-    max-height: 900px;
+    text-align: center;
+    min-height: 80px;
+    margin: auto;
+}
+
+h1#comum {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1#especial {
@@ -29,6 +36,11 @@ color: #2F92F0;
 
 h2 {
 font-size: 1.6em;
+
+}
+
+h2.numero {
+    color: rgb(255, 0, 0);
 }
 
 p {
@@ -38,10 +50,17 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
-
+background-color: white;
+margin: auto;
 }
 
 article {
-
+text-align: center;
+min-width: 300px;
+max-width: 800px;
+margin: auto;
+text-align: left;
+padding: 12px;
+font-family: Arial, Helvetica, sans-serif;
 }
 
