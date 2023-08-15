@@ -18,45 +18,50 @@
 
         body {
         background-image: url(imagens/fundo-madeira.jpg);
-         background-position: top center;
-         background-repeat: no-repeat;
-         background-size: ;
-         background-attachment: fixed;
-         background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
         }
     
         main {
-            position: relative;
+        position: relative;
         height: 100vh;
+
+
         }
 
         div#celular {
-            background-image: url(imagens/frame-iphone.png) ;
-            background-repeat: no-repeat;
+        background-image: url(imagens/frame-iphone.png);
+        background-repeat: no-repeat;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         height: 627px;
         width: 311px;
+        
         }
 
         div#aplicativo {
-
-        }
-
-        iframe#home {
-            position: absolute;
-    
+            z-index: -1;
+            display: flex;
+            justify-content: center;
             
         }
+        
+
     </style>
 
 </head>
 <body>
     <main>
-    <div id="aplicativo">
-    <iframe src="home.html" frameborder="0" id="home">
+    <div id="aplicativo"  >
+    <iframe src="home.html" frameborder="0" id="home" >
     </iframe>
     
     </div>
