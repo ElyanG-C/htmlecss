@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sla meu</title>
     <style>
+        
         * {
-            margin: 0%;
-            padding: 0%; 
-            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            padding: 0px;
         }
-
+        
         html, body {
         height: 100vh;
         width: 100vw;
@@ -18,56 +18,48 @@
 
         body {
         background-image: url(imagens/fundo-madeira.jpg);
-        background-position: top center;
         background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        
+        background-position: top center;
+        background-size: 200%;
         }
-    
+
         main {
         position: relative;
         height: 100vh;
 
-
         }
 
-        div#celular {
-        background-image: url(imagens/frame-iphone.png);
-        background-repeat: no-repeat;
+        #celular {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        background-image: url(imagens/frame-iphone.png);
+        background-repeat: no-repeat;
+        
         height: 627px;
         width: 311px;
-        
         }
-
-        div#aplicativo {
-            z-index: -1;
-            display: flex;
-            justify-content: center;
+        
+        #tela {
+            position: absolute;
+            top: 10%;
             
         }
         
-
     </style>
 
 </head>
 <body>
     <main>
-    <div id="aplicativo"  >
-    <iframe src="home.html" frameborder="0" id="home" >
-    </iframe>
+    <div id="celular"  >
+    <iframe src="home.html" frameborder="0" id="tela" ></iframe>
     
     </div>
 
-        <div id="celular">
-
+        <div id="aplicativo">
+            <ifrae src="home.html" frameborder="0" id="home" >
+            </iframe>
         </div>
     </main>
 </body>
