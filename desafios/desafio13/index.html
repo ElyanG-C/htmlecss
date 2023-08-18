@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
     <style>
         
-        * {
+    * {
             margin: 0px;
             padding: 0px;
         }
         
-        html, body {
+    html, body {
         height: 100vh;
         width: 100vw;
         }
 
-        body {
+    body {
         background-image: url(imagens/fundo-madeira.jpg);
         background-repeat: no-repeat;
         background-position: top center;
         background-size: 200%;
         }
 
-        main {
+    main {
         position: relative;
         height: 100vh;
 
         }
 
-        #celular {
+    #celular {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -41,19 +41,31 @@
         width: 311px;
         }
          
-       #logo {
+    #logo {
         position: absolute;
         top: 12%;
         left: 6%;
         width: 270px;
         height: 500px;
        } 
-        
-       div#aplicativo {
-    
-       }
        
-        
+    img  {
+        width: 50px;
+        margin: 10px;
+        border-radius: 50%;
+        text-align: right; 
+     }
+     
+    img:hover {
+     border: 2x solid black;
+     }
+
+    div#aplicativo {
+        text-align: right center;
+     }
+    a {
+        width: 50px;
+       } 
     </style>
 </head>
 <body>
@@ -64,7 +76,11 @@
         </div>
     
             <div id="aplicativo">
-        <a href="redes.html" target="redes">A</a>       
+            <a href="imagens/tela-youtube.png" target="redes"><img src="imagens/logo-youtube.jpg" alt=""></a> <br>
+            <a href="imagens/tela-instagram.jpg" target="redes"> <img src="imagens/logo-instagram.jpg" alt=""></a>  <br>
+            <a href="imagens/tela-home.jpg" target="redes"> <img src="imagens/logo-home.jpg" alt=""></a> <br>
+            <a href="imagens/tela-github.jpg" target="redes"><img src="imagens/logo-github.jpg" alt=""></a>    <br> 
+            
             </div>
         </main>
 </body>
