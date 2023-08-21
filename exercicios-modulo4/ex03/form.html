@@ -11,16 +11,22 @@
     </style>
 </head>
 <body>
-    <h1>Praticando formulario</h1>
-    <form action="cadastro.php"  >
+    <h1></h1>
+    <form action="cadastro.html" method="get"  >
+        <p>
+            <label for="inome">NOME: </label >
+            <input type="text" name="nome" id="inome" required minlength="8">
+        </p>
+        <p> 
+            <label for="iendereço">ENDEREÇO: </label>
+            <input type="text" name="endereço" id="iendereço">
+        </p>
+        <p>
+            <label for="inviar"></label>
+            <input type="submit" value="ENVIAR">
+        </p>
+     
         
-       <p> <label for="inome">NOME:</label> 
-        <input type="text" name="nome" id="inome">
-     </p>
-    <p>
-       <label for="isobrenome">SOBRENOME:</label> <input type="text" name="sobrenome" id="isobrenome"> </p>
-        <p> <input type="submit" value="ENVIAR"></p>
-
     </form>
 </body>
 </html>
