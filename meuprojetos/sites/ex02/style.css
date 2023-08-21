@@ -13,43 +13,51 @@ height: 0px;
 html, body {
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 body {
     background-color: rgba(0, 0, 0, 0.557);
-    
+    overflow: hidden;
 }
 
 main {
- position: relative;
- height: 100vh;
+    position: relative;
+    height: 100vh;
+}
+
+div {
+
 }
 
 div#celular {
- position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-50%, -55%);
- background-image: url(imagens/frame-iphone.png);
- background-repeat: no-repeat;
-    background-position: center;
- 
-}
- div > iframe {
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 627px;
- }
-
-div#aplicativo {
-
+    transform: translate(-50%, -50%);
+  background-image: url(imagens/frame-iphone.png);
+  background-repeat: no-repeat;
+  height: 627px;
+  width: 311px;
 }
 
-a > img {
-    display: block;
-    margin: 15px;
-    width: 50px;
-    border-radius: 50%;
+iframe {
+    position: absolute;
+    top: 13% ;
+    left: 7% ;
+    height: 470px;
+    width: 265px;
     
 }
+div#aplicativo {
+    position: absolute; 
+    top: 12%; 
+}
+
+img {
+    display: block;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 50%;
+}
+

@@ -5,6 +5,18 @@
     height: 0px;
     }
 
+    body {
+    position: relative;
+       height: 100vh;
+       width: 100vw; 
+       overflow: hidden;
+
+    }
+
     img {
-        
+        position: absolute;
+        top: -2%;
+        left: -5%;
+        height: 500px;
+        width: 270px;
     }
