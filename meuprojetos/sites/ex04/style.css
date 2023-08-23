@@ -1,0 +1,44 @@
+@charset "UTF-8"
+
+* {
+    
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+
+}
+
+body {
+ 
+}
+
+header {
+    text-align: center;
+background-color: #b148fd;
+}
+
+nav {
+    color: white;
+margin: 10px;
+word-spacing: 20px;
+}
+
+main {
+
+}
+
+h1 {
+    font-size: 2.1em;
+}
+h2 {
+    font-size: 1.7em;
+}
+
+
+
+p {
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
