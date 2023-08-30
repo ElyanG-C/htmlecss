@@ -1,0 +1,16 @@
+@charset "UTF-8"
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+   body {
+    background-image: url(imagens/back-tablet.jpg);
+   } 
+   img#celular { display: none;}
+img#tablet { display: block;}
+img#impressora {display: none;}
+img#pc { display: none;
+}
+img#tv {
+    display: none;
+}
+} 
+    

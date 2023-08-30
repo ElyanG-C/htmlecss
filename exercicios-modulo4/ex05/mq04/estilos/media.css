@@ -2,6 +2,8 @@
 
 /* Versao demais midias */
 
-@media screen {
-    
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
 }
