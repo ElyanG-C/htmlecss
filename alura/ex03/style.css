@@ -1,0 +1,11 @@
+.sessao img:nth-child(1) {
+    display: grid;
+    grid-column: 2/3;
+}
+
+.sessao img:nth-child(4) {
+    display: grid;
+    grid-row: 2/3
+
+}
+

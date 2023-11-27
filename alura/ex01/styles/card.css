@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 1em;
+    box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.358);
+
+}
+
+.card__h2 {
+  
+}
+
+.card__h3 {
+    color: orange;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.card__p {
+     margin: 0.5em 0px 0px 0px;
+}
+
+.botoes {
+   
+}
+
+.botoes__link-classe {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1em 2em 0px 2em
+}
+
+
+.botoes__link {
+    padding: 15px;
+    border-radius: 2px;
+
+   color: white;
+    background-color: orange;
+    text-align: center;
+}

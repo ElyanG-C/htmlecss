@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="cabeçalho">
+        <div class="cabeçalho__imagem1">
+            <input type="checkbox" name="check" id="check" class="check">
+                <label for="check">
+                    <span class="cabeçalho__imagem"></span>
+                </label>
+                <img src="img/Logo.svg" alt="">
+                <ul class="listas">
+                    <li class="listas__conteudo"><strong>CATEGORIAS</strong></li>
+                    <li class="listas__conteudo"> PROGRAMAÇAO</li>
+                    <li class="listas__conteudo"> FRONT-END</li>
+                    <li class="listas__conteudo"> INFRAESTRUTURA</li>
+                    <li class="listas__conteudo"> BUSINESS</li>
+                    <li class="listas__conteudo"> DESIGN</li>
+                </ul>
+        
+        </div>
+        <div class=" cabeçalho__link">
+            <a href="#" class="cabeçalho__link__imagem"> <img src="img/Favoritos.svg" alt=""></a>
+            <a href="#" class="cabeçalho__link__imagem"></a><img src="img/Compras.svg" alt=""></a>
+            <a href="#" class="cabeçalho__link__imagem"></a> <img src="img/Usuario.svg" alt=""></a>
+        </div>
+        
+</header>
+
+<section class="banner">
+    <div class="banner__divisao">
+        <h2 class="banner__h2">Já sabe onde começar?</h2>
+        <p class="banner__p">Encontre em nossa estante o que precisa para seu <br> desenvolvimento!</p>
+        <input type="search" name="banner__pesquisa" id="banner__pesquisa" class="banner__pesquisa" placeholder="Qual sera a sua proxima leitura?">
+    </div>
+</section>
+
+<section class="carrosel">
+    <h2  class="carrosel__h2">NOVOS LANÇAMENTOS</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+
+    <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/alurabooks-aula03/img/ApacheKafka.svg" alt=""></div>
+      <div class="swiper-slide"><img src="img/alurabooks-aula03/img/Guia Front-end.svg" alt=""></div>
+      <div class="swiper-slide"><img src="img/alurabooks-aula03/img/Javascript.svg" alt=""></div>
+      <div class="swiper-slide"><img src="img/alurabooks-aula03/img/Liderança.svg" alt=""></div>
+      <div class="swiper-slide"> <img src="img/alurabooks-aula03/img/Portugol.svg" alt=""></div>
+    </div>
+   
+    <div class="swiper-pagination"></div>
+  
+   
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+</section>
+
+<div class="card">
+    <div class="card__2">
+        <div class="card__3">
+           <h3 class="card__h3">Talvez voce também
+            se interesse por...</h3>
+            <h2 class="card__h2">Angular 11 e
+                Firebase</h2>
+                <p class="card__p">Construindo uma
+                    aplicaçao <br> integrada
+                    com a <br> platoforma
+                    do Google</p>
+        </div>
+    </div>
+    <img src="img/alurabooks-aula03/img/Angular.svg" alt="">
+   
+</div>
+
+      <div class="botoes">
+        <div class="botoes__link-classe">
+              <p>.</p>
+            <a href="#" class="botoes__link">SAIBA MAIS</a>
+        </div>
+      </div>
+
+
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+    slidesPerView: 3,
+    spaceBetween: 15,
+  
+});
+</script>
+</body>
+</html>
